@@ -1,10 +1,8 @@
-
-
 module.exports = {
   
 	customWait : function(milliSeconds)
    {
-          var i;
+        var i;
 		var d = new Date();
 		var startTime = d.getTime();
 		var endTime = startTime + milliSeconds;
@@ -23,3 +21,4 @@ module.exports = {
          return true;
    }
 }
+
