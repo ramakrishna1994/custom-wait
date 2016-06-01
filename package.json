@@ -1,0 +1,28 @@
+{
+    "name"        : "custom-wait",
+    "author"      : "Saradhi Ramakrishna <ramakrishnasaradhi@gmail.com>",
+    "description" : "Simple library to wait for a certain amount of time.",
+    "version"     : "2.0.2",
+	"readmeFilename":"README.md",
+    "repository"  : {
+        "type" : "git",
+        "url"  : "https://github.com/ramakrishna1994/custom-wait"
+    },
+    "bugs" : {
+        "url" : "https://github.com/ramakrishna1994/custom-wait"
+    },
+    "license"  : "SARADHI",
+    "keywords" : [
+        "async",
+        "wait",
+        "custom",
+        "sleep",
+        "loop",
+        "timeout"
+    ],
+    "scripts" : {
+        "test" : "node node_modules/.bin/mocha"
+    },
+    "main"            : "custom-wait.js"
+    
+}
